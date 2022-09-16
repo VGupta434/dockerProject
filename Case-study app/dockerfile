@@ -1,0 +1,7 @@
+# this dockerfile is created by vg52531@gmail.com
+
+FROM nginx:alpine
+
+COPY . /usr/share/nginx/html
+
+Expose 80
